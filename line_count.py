@@ -1,8 +1,10 @@
 def line_count():
-    file = open('filename.txt', 'r')
+    
+    file = open('example.txt', 'r')
 
-    line_number = len(file.readlines())
+    lines = file.readlines()
+
+    for line in lines:
+        print(line.strip())
 
     file.close()
-
-    return(line_number)
