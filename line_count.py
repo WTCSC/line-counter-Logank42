@@ -1,6 +1,6 @@
 def line_count(): #creats function
     count = 0 #sets the line count to 0
-    file = open('example.txt', 'r') #opens file
+    file = open('file.txt', 'r') #opens file
 
     lines = file.readlines() #reads the file
 
