@@ -1,13 +1,13 @@
-def line_count():
-    count = 0
-    file = open('example.txt', 'r')
+def line_count(): #creats function
+    count = 0 #sets the line count to 0
+    file = open('example.txt', 'r') #opens file
 
-    lines = file.readlines()
+    lines = file.readlines() #reads the file
 
-    for line in lines:
-        line.strip()
-        count += 1
+    for line in lines: #starts for loop
+        line.strip() #clears characters
+        count += 1 #counts lines
 
-    file.close()
+    file.close() #closes file
 
-    return count
+    return count #returns line count
